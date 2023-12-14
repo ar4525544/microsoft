@@ -1,17 +1,23 @@
-
-.footer .row .col-2 ul{
-    
-    padding-inline-start: 0;
+.footer ul{
     list-style-type: none;
-} 
-.footer .row .col-2 ul li{
-    margin-bottom: 5px;
+    padding: 0;
 }
-.footer .row .col-2 ul li a{
+.footer ul h6{
+    font-size: 16px;
+}
+.footer ul li a{
     text-decoration: none;
-    color: black;
-
+    color: gray;
 }
+.footer ul li a:hover{
+    text-decoration: underline;
+}
+.footer{
+    background-color: #f4f4f4;
+}
+
+
+
 .nav-link:hover {
  text-decoration:underline;
 }
